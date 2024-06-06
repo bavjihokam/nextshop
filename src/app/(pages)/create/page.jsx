@@ -1,7 +1,7 @@
 "use client";
 import { UpdateUser, allUsers, createUser, fetchUser } from "@/app/libs/crud";
 import { useState, useEffect } from "react";
-function CreatePage() {
+function createpage() {
 	const [username, setUsername] = useState("");
 	const [email, setEmail] = useState("");
 	const [userData, setUserData] = useState([]);
@@ -79,4 +79,4 @@ function CreatePage() {
 	);
 }
 
-export default CreatePage;
+export default createpage;
