@@ -11,17 +11,17 @@ function CreatePage() {
 		e.preventDefault();
 		await createUser({ username, email });
 		// Refresh user data after creating a new user
-	//	const updatedUserData = await fetchUser();
-		//setUserData(updatedUserData);
-	//};
+		const updatedUserData = await fetchUser();
+		setUserData(updatedUserData);
+	};
 
-	useEffect(() => {
+/*	useEffect(() => {
 		const getUsers = async () => {
 			const userData = await fetchUser();
 			setUserData(userData);
 		};
 		getUsers();
-	}, []);
+	}, []);*/
 
 	return (
 		<div className="max-w-sm mx-auto flex flex-col gap-10 justify-center items-center min-h-screen">
