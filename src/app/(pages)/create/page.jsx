@@ -11,9 +11,9 @@ function CreatePage() {
 		e.preventDefault();
 		await createUser({ username, email });
 		// Refresh user data after creating a new user
-		const updatedUserData = await fetchUser();
-		setUserData(updatedUserData);
-	};
+	//	const updatedUserData = await fetchUser();
+		//setUserData(updatedUserData);
+	//};
 
 	useEffect(() => {
 		const getUsers = async () => {
