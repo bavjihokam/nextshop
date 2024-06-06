@@ -45,7 +45,7 @@ export const createUser = async ({ username: username, email: email }) => {
 	}
 };
 
-/*export const fetchUser = async () => {
+  export const fetchUser = async () => {
 	try {
 		const prisma = new PrismaClient();
 		// fetch  all users
@@ -61,7 +61,7 @@ export const createUser = async ({ username: username, email: email }) => {
 	} catch (error) {
 		console.log(error);
 	}
-};*/
+};
 
 export const UpdateUser = async () => {
 	try {
