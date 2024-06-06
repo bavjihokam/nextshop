@@ -54,19 +54,7 @@ function CreatePage() {
 					</button>
 				</form>
 			</div>
-			{Array.isArray(userData) && userData.length > 0 ? (
-				userData.map((user, i) => (
-					<div
-						key={i}
-						className="grid grid-cols-2 gap-4 p-2 border border-gray-400 rounded-md"
-					>
-						<div>Username: {user.username}</div>
-						<div>Email: {user.email}</div>
-					</div>
-				))
-			) : (
-				<p>No users found</p>
-			)}
+			
 
 			<div>
 				<form>
