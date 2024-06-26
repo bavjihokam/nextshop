@@ -1,5 +1,4 @@
-import Image from "next/image";
-import Header from "@/src/app/components/header";
+import Image from "next/image"
 
 export default function Home() {
   return (
